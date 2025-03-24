@@ -1,4 +1,15 @@
-## v1.2
+## v1.2 Beta 24/03/2025
+- device: Move no cutout overlay packages to device tree
+- device: rro_overlays: Adjust status bar padding
+- device: Remove Mi Sound Enhancer
+- device: Added Dolby
+- device: sepolicy: Address PowerHAL denials
+- device: sepolicy: Address init denials
+- device: sepolicy: Address CameraHAL denials
+- device: Add missing FCM
+- kernel: scripts/setlocalversion: Don't append -dirty in localversion
+
+## v1.2 18/03/2025
 - device: Add aperture
 - device: Remove AudioFX app
 - device: Change default hotspot ssid
