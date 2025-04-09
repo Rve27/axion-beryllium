@@ -1,3 +1,15 @@
+## v1.2 Beta 09/04/2025
+- New kernel source
+- Add support for bypass charging feature
+- power: Abstract android.hardware.power-ndk dependency
+- sepolicy: Remove obsolete NXP NFC and eSE rules
+- sepolicy: Rewrite access to BT and WiFi MAC address files
+- audio: Use AOSP USB v2 audio HAL
+- audio: Remove direct flag for VOIP RX
+- Move to Xiaomi fingerprint AIDL
+- parts: Remove unused thermal profiles
+- Downgrade WFD system stack
+
 ## v1.2 Beta 24/03/2025
 - device: Move no cutout overlay packages to device tree
 - device: rro_overlays: Adjust status bar padding
