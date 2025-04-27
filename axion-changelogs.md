@@ -1,3 +1,14 @@
+## v1.3 Nightly 27/05/2025
+- Remove unused blobs
+- Setup ELF checks and regen vendor after enabling ELF checks
+- Do not manually build dependencies
+- Libraries are now automatically added to PRODUCT_PACKAGES
+- Patch libwfdservice to resolve duplicate dependencies
+- Build libqti_vndfwk_detect.vendor:32
+- Add libwfdservice_shim for WFD
+- parts: Move thermal profiles to system category
+- Don't declare BOARD_VENDOR
+
 ## v1.2 Beta 09/04/2025
 - New kernel source
 - Add support for bypass charging feature
